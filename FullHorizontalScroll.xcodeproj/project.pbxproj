@@ -11,9 +11,11 @@
 		AC6958C4222B6983000AE356 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6958C3222B6983000AE356 /* ViewController.swift */; };
 		AC6958C7222B6983000AE356 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6958C5222B6983000AE356 /* Main.storyboard */; };
 		AC6958C9222B6985000AE356 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC6958C8222B6985000AE356 /* Assets.xcassets */; };
-		AC6958CC222B6985000AE356 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6958CA222B6985000AE356 /* LaunchScreen.storyboard */; };
 		AC6958D7222B6985000AE356 /* FullHorizontalScrollTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6958D6222B6985000AE356 /* FullHorizontalScrollTests.swift */; };
 		AC6958E2222B6985000AE356 /* FullHorizontalScrollUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6958E1222B6985000AE356 /* FullHorizontalScrollUITests.swift */; };
+		AC6958F0222B6E96000AE356 /* PaymentsOptionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6958EF222B6E96000AE356 /* PaymentsOptionsController.swift */; };
+		ACC322BC222C029000E037D8 /* PaymentMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACC322BB222C029000E037D8 /* PaymentMenuView.xib */; };
+		ACC322BE222C0A8700E037D8 /* PaymentMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC322BD222C0A8700E037D8 /* PaymentMenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,6 @@
 		AC6958C3222B6983000AE356 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AC6958C6222B6983000AE356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC6958C8222B6985000AE356 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AC6958CB222B6985000AE356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC6958CD222B6985000AE356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC6958D2222B6985000AE356 /* FullHorizontalScrollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FullHorizontalScrollTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC6958D6222B6985000AE356 /* FullHorizontalScrollTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullHorizontalScrollTests.swift; sourceTree = "<group>"; };
@@ -47,6 +48,9 @@
 		AC6958DD222B6985000AE356 /* FullHorizontalScrollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FullHorizontalScrollUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC6958E1222B6985000AE356 /* FullHorizontalScrollUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullHorizontalScrollUITests.swift; sourceTree = "<group>"; };
 		AC6958E3222B6985000AE356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC6958EF222B6E96000AE356 /* PaymentsOptionsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsOptionsController.swift; sourceTree = "<group>"; };
+		ACC322BB222C029000E037D8 /* PaymentMenuView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaymentMenuView.xib; sourceTree = "<group>"; };
+		ACC322BD222C0A8700E037D8 /* PaymentMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +103,12 @@
 			children = (
 				AC6958C1222B6983000AE356 /* AppDelegate.swift */,
 				AC6958C3222B6983000AE356 /* ViewController.swift */,
+				AC6958EF222B6E96000AE356 /* PaymentsOptionsController.swift */,
 				AC6958C5222B6983000AE356 /* Main.storyboard */,
 				AC6958C8222B6985000AE356 /* Assets.xcassets */,
-				AC6958CA222B6985000AE356 /* LaunchScreen.storyboard */,
 				AC6958CD222B6985000AE356 /* Info.plist */,
+				ACC322BB222C029000E037D8 /* PaymentMenuView.xib */,
+				ACC322BD222C0A8700E037D8 /* PaymentMenuViewController.swift */,
 			);
 			path = FullHorizontalScroll;
 			sourceTree = "<group>";
@@ -229,8 +235,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC6958CC222B6985000AE356 /* LaunchScreen.storyboard in Resources */,
 				AC6958C9222B6985000AE356 /* Assets.xcassets in Resources */,
+				ACC322BC222C029000E037D8 /* PaymentMenuView.xib in Resources */,
 				AC6958C7222B6983000AE356 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACC322BE222C0A8700E037D8 /* PaymentMenuViewController.swift in Sources */,
 				AC6958C4222B6983000AE356 /* ViewController.swift in Sources */,
+				AC6958F0222B6E96000AE356 /* PaymentsOptionsController.swift in Sources */,
 				AC6958C2222B6983000AE356 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,14 +307,6 @@
 				AC6958C6222B6983000AE356 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		AC6958CA222B6985000AE356 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AC6958CB222B6985000AE356 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -435,6 +435,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3KYB9D64M2;
 				INFOPLIST_FILE = FullHorizontalScroll/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +454,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3KYB9D64M2;
 				INFOPLIST_FILE = FullHorizontalScroll/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
