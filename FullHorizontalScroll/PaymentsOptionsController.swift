@@ -19,6 +19,11 @@ class PaymentsOptionsController: UIViewController, UIScrollViewDelegate {
     var scrollViewData = [scrollViewDataStruct]()
     //var pa : PaymentMenuViewController!
     
+    @objc func  test()
+{
+    print("jj")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.scrollView.delegate = self
@@ -30,6 +35,7 @@ class PaymentsOptionsController: UIViewController, UIScrollViewDelegate {
         let halfInterSpacing: CGFloat = 10.5
         let viewWidth : CGFloat = 305
         let viewOptions = PaymentMenuViewController(frame: CGRect(x: (halfInterSpacing * j) + viewWidth * i, y: 0, width :  viewWidth, height: self.scrollView.frame.height))
+        viewOptions.buttonOne.addTarget(self, action: #selector(test), for: .touchUpInside)
         self.scrollView.addSubview(viewOptions)
         i += 1
         j += 2
